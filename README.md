@@ -3,8 +3,6 @@
 Minimal ImGUI demos are based on examples from the ImGui project.
 There are two examples for OpenGL 2.0 & 3.0.
 
-![ImGui Example Screenshot](images/minimalimgui.png)
-
 The project includes the following dependencies:
 
 * [imgui](https://github.com/ocornut/imgui) - Minimal GUI.

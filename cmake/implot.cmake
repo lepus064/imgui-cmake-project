@@ -4,7 +4,8 @@ include_directories(${IMPLOT_INCLUDE_DIR})
 
 add_library(implot STATIC 
   ${CMAKE_SOURCE_DIR}/thirdparty/implot/implot.cpp 
-  ${CMAKE_SOURCE_DIR}/thirdparty/implot/implot_items.cpp)
+  ${CMAKE_SOURCE_DIR}/thirdparty/implot/implot_items.cpp
+  ${CMAKE_SOURCE_DIR}/thirdparty/implot/implot_demo.cpp)
 target_link_libraries(implot ${IMGUI_LIBRARIES})
 
 
